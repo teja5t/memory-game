@@ -8,7 +8,6 @@ export default function PokemonImage({ name }) {
         fetch(`https://pokeapi.co/api/v2/pokemon/${name}`) 
         .then((response) => response.json())
         .then((data) => {
-            console.log(data.sprites);
             setImageUrl(data.sprites.other.dream_world.front_default);
             setLoading(false);
         })

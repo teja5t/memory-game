@@ -4,19 +4,17 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 img {
-
     width: 200px;
+    height: 200px;
 }
 
 .card {
@@ -26,8 +24,28 @@ img {
     padding: 10px;
     text-align: center;
     border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card:hover {
     box-shadow: 10px 10px 10px;
+}
+
+.title {
+    width: 50vw;
+}
+
+.won {
+    color: lightgreen;
+}
+
+.lost {
+    color: coral;
+}
+
+.scores {
+    flex: 1;
+    margin-left: 10px;
 }

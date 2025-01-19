@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import Title from './components/Title'
 import Score from './components/Score'
-import BestScore from './components/BestScore'
 import Cards from './components/Cards'
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
       <div className="header">
         <Title />
         <Score score={currentScore} />
-        <BestScore currentScore={currentScore} />
       </div>
       <Cards
       changeScore={changeScore}

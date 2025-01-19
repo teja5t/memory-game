@@ -5,7 +5,6 @@ const pokemon = [
     "pikachu",
     "charmander",
     "bulbasaur",
-    "squirtle",
     "jigglypuff",
     "meowth",
     "eevee",
@@ -21,9 +20,8 @@ const pokemon = [
     "gardevoir",
     "squirtle",
     "rayquaza",
-    "arceus"
-  ];
-  
+    "arceus",
+    "articuno"];
 const clickedPokemon = {};
 
 for (const name of pokemon) {
